@@ -66,7 +66,9 @@ Running the project image pipeline
 python3 image_lpr.py
 ```
 
-
+---
+# Demo
+![](demo/demo1.png)
 ---
 
 # Performance Considerations
