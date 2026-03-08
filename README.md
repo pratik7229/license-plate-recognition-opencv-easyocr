@@ -17,7 +17,24 @@ The pipeline performs:
 - Text recognition using EasyOCR
 - Visualization of detected plate and text
 
+---
+# Pipeline Diagram
 
+Image
+ ↓
+Grayscale
+ ↓
+Bilateral Filter
+ ↓
+Canny Edge
+ ↓
+Contour Detection
+ ↓
+Plate Region
+ ↓
+EasyOCR
+ ↓
+Plate Text
 ---
 
 # Features
