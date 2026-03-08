@@ -5,7 +5,7 @@ from utils import LicensePlateRecognizer
 
 def main():
 
-    image = cv2.imread("/Users/pratik/Documents/Finalized Projects/Liscense_Plate_Recognition/data/image3.jpg")
+    image = cv2.imread("Add path here/data/image3.jpg")
 
     lpr = LicensePlateRecognizer()
 
